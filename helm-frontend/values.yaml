@@ -1,6 +1,6 @@
 deployment:
   version: v1
    imageVersion: IMAGE_VERSION
-   imageUrl: 311141538313.dkr.ecr.us-east-1.amazonaws.com/expense/frontend:1.0.0
+   imageUrl: 311141538313.dkr.ecr.us-east-1.amazonaws.com/expense/frontend
 hpa:
   cpuutilization: 15
