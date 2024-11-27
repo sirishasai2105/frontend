@@ -1,6 +1,7 @@
 deployment:
   version: v1
-   imageVersion: IMAGE_VERSION
-   imageUrl: 311141538313.dkr.ecr.us-east-1.amazonaws.com/expense/frontend
+  imageVersion: IMAGE_VERSION  # Corrected indentation
+  imageUrl: 311141538313.dkr.ecr.us-east-1.amazonaws.com/expense/frontend
+
 hpa:
   cpuutilization: 15
